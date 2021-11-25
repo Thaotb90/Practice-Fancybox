@@ -531,7 +531,7 @@ section.hero.wrapper:hover i.a-right.control-c.next.slick-next.fas.fa-chevron-ri
 .teams {
   position: relative; }
   .teams .moving-bg {
-    background: transparent url(../images/Teams/crypto.png) repeat-x scroll 0 100%;
+    background: transparent url(./images/Teams/crypto.png) repeat-x scroll 0 100%;
     position: absolute;
     z-index: -1;
     top: 0;
@@ -1339,7 +1339,7 @@ img.mfp-img {
     padding-right: 6px; } }
 .tickets {
   padding: 100px 0;
-  background: url(../images/dotted-bg.svg) repeat center center;
+  background: url(./images/dotted-bg.svg) repeat center center;
   background-size: 38%;
   background-position: center;
   background-repeat: repeat-x;
