@@ -1,0 +1,132 @@
+.teams{
+    position: relative;
+    .moving-bg  {
+        background: transparent url(../images/Teams/crypto.png) repeat-x scroll 0 100%;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        animation: cloudwash 60s linear infinite;
+        opacity: .7;
+        height: 95%;
+        width: 500em;
+        background-position: bottom;
+    }
+    .heading-section {
+        padding-top: 30px;
+        .title-section {
+            color: white;
+        }
+    }
+    &-slider {
+        .slick-list{
+            margin: 0 -10px;
+        }
+        .team-memb:hover {
+            // box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 20px;
+        }
+        .team-memb{
+            color:white;
+            margin:10px 10px;
+            transition: all 0.4s ease-in-out;
+            border-radius: 10px;
+            .boxed-img{
+                border-radius: 10px;
+                width: 100%;
+                img{
+                    border-radius: inherit;
+                    width: 100%;
+                    height: 400px;
+                    object-fit: cover;
+                }
+            }
+            .content-memb{
+                padding: 10px 15px;
+                .title-memb{
+                    font-size: 20px;
+                    font-weight: 500;
+                    line-height: 26px;
+                    color: white;
+                }
+                .info-memb{
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 23px;
+                }
+                .group-social {
+                    width: 100%;
+                    margin-top: 20px;
+                    text-align: left;
+                    li{
+                        display: inline-block;
+                        margin-right: 15px;
+                        a{
+                            color: $gray-color;
+                            padding: 10px;
+                            background-color: #F2F4FE;
+                            line-height: 1;
+                            display: inherit;
+                            border-radius: 4px;
+                            transition: 0.3s all;
+                        }
+                    }
+                    li:hover a {
+                        background-color: $gray-color;
+                        color: white;
+                    }
+                }
+            }
+        }
+        .slick-prev, .slick-next{
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+            top: 35%;
+            transform: translateY(-40%);
+            position: absolute;
+            z-index: 9;
+            line-height: 30px;
+            background-color: rgba(0, 0, 0, 0.438) ;
+            border-radius: 10rem;
+        }
+        .slick-prev{
+            left: 0;
+        }
+        .slick-next {
+            right: 0;
+        }
+    }
+}
+.teams::after {
+    content: "";
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+background-color: #0c2442d3;
+z-index: -1;
+}
+@-webkit-keyframes cloudwash {
+	0% {
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+	100% {
+		-webkit-transform: translate3d(-50%,0,0);
+		transform: translate3d(-50%,0,0);
+	}
+}
+
+@keyframes cloudwash {
+	0% {
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+	100% {
+		-webkit-transform: translate3d(-50%,0,0);
+		transform: translate3d(-50%,0,0);
+	}
+}

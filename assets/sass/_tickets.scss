@@ -1,0 +1,83 @@
+.tickets{
+    padding: 100px 0;
+    background: url(../images/dotted-bg.svg) repeat center center;
+    background-size: 38%;
+    background-position: center;
+    background-repeat: repeat-x;
+    position: relative;
+    .pricing-box{
+        background: white;
+        padding: 30px 15px;
+        border-radius: 10px;
+        border: 1px solid rgb(219, 218, 218);
+        box-shadow: rgba(99, 99, 99, 0.6) 0px 0px 15px 0px;
+        .pricing-title{
+            h3{
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 30px;
+                color:#333333;
+            }
+            span{
+                color:#777777;
+                font-size:14px ;
+                letter-spacing: 1;
+                line-height: 21px;
+                margin: 3px 0;
+            }
+        }
+        .pricing-price{
+            font-size: 64px;
+            font-weight: 700;
+            line-height: 64px;
+            padding: 24px 0 15px;
+            color:#333333;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            .price-unit{
+                font-size: 20px;
+            }
+        }
+        .pricing-persons {
+            .form-select{
+                width: 80%;
+                padding: 6px 10px;
+                border-color: #CED4DA;
+                border-radius: 4px;
+
+            }
+        }
+        .pricing-action{
+            
+            margin: 20px 0;
+            border-radius: 4px;
+            a{
+                color: white;
+                width: 80%;
+                font-size: 16px;
+                padding: 8px 30px;
+                border-radius: inherit;
+                background-image: linear-gradient(to right, #A34FFE, #5934FC) !important;
+            }
+        }
+    }
+}
+.tickets:after{
+    content: "";
+    position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+background-color: black;
+z-index: -1;
+}
+// .gradient-text {
+//     text-shadow: none!important;
+//     -webkit-background-clip: text;
+//     -webkit-text-fill-color: transparent;
+//     -webkit-box-decoration-break: clone;
+// }

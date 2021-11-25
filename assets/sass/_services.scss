@@ -1,0 +1,36 @@
+.services {
+    .grid-box{
+        --column: 4;
+        display: grid;
+        grid-template-columns: repeat(var(--column), 1fr);
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 50px 30px; 
+        .grid-item {
+            text-align: center;
+            .grid-content {
+                font-size: 20px;
+                font-weight: 500;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1023px) {
+    .services{
+    .grid-box{
+--column: 2;
+max-width: 700px;
+margin: auto;
+.grid-content {
+    font-size: 18px;
+}
+}
+}
+.services .grid-box {
+    grid-gap: 30px 20px;
+}
+}
+@media screen and (max-width: 560px) {
+    .services .grid-box .grid-item .grid-content {
+        font-size: 16px;
+    }
+}

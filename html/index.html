@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Fancybox</title>
+	<!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+	<!-- Font- Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <!-- Slick slider Css file -->
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      />
+	<!-- Core css Files -->
+	<!-- <link rel="stylesheet" href="../assets/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+	<link rel="stylesheet" href="../assets/vendor/animate/animate.css">
+    <link rel="stylesheet" href="../assets/vendor/owl-carousel/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="../assets/vendor/fancybox/css/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="../assets/css/main.css"> </head>
+<body>
+<header class="header wrapper">
+        <div class="header-top">
+			<div class="container">
+                <div class="header-top-content">
+                    <div class="header-top-contact">
+                        <div class="header-top-mail">
+                                                <a href="#!" class="contact-link"><i class="fas fa-envelope"></i> 
+                                                contact@mail.com</a> 
+                                            </div>
+                        <div class="header-top-phone"> 
+                                                <a href="#!" class="contact-link"><i class="fas fa-phone-alt"></i> 
+                                                +0011223495</a> 
+                                            </div>
+                    </div>
+                    <div class="header-top-socials"> 
+                                            <a href="#!" class="link-item">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a> 
+                                            <a href="#!" class="link-item">
+                                                <i class="fab fa-twitter"></i>
+                                            </a> 
+                                            <a href="#!" class="link-item">
+                                                <i class="fab fa-youtube"></i>
+                                            </a> 
+                                            <a href="#!" class="link-item">
+                                                <i class="fab fa-linkedin"></i>
+                                            </a> 
+                                        </div>
+                </div>
+			</div>
+        </div>
+        <div class="header-main">
+            <nav class="navbar navbar-default">
+                <div class="container">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand"><span>Reve</span>Tive.</a>
+                  </div>
+              
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    
+                    <ul class="navbar-nav nav navbar-right">
+                        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#project">Project</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#news">News</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                  </div><!-- /.navbar-collapse -->
+                </div><!-- /.container -->
+              </nav>
+        </div>
+</header>
+<main>
+    <!-- Section Hero -->
+    <section class="hero wrapper">
+        <div class="slick-slider single-item">
+            <div class="slick-item">
+                <div class="boxed-img"><img src="../assets/images/bg_image_1.jpg" alt=""></div>
+                <div class="box-content">
+                    <p class="caption">We're design studio believe in ideas</p>
+                    <h2 class="primary-title">Creative Design</h2>
+                    <button type="button" class="btn btn--outline-light">Get Started</button>
+                </div>
+            </div>
+            <div class="slick-item">
+                <div class="boxed-img"><img src="../assets/images/bg_image_2.jpg" alt=""></div>
+                <div class="box-content">
+                    <h2 class="primary-title">We combine Design, Thinking, and Technical</h2>
+                    <div class="groupbtn-slider">
+                        <button type="button" class="btn btn--outline-light">Get started</button>
+                        <button type="button" class="btn btn--primary">See Pricing</button>
+                    </div>
+                </div>
+            </div>
+            <div class="slick-item">
+                <div class="boxed-img"><img src="../assets/images/bg_image_3.jpg" alt=""></div>
+                <div class="box-content">
+                    <p class="caption">We're design studio believe in ideas</p>
+                    <h2 class="primary-title">Creative Design</h2>
+                    <button type="button" class="btn btn--primary">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section Hero -->
+    <!-- Section intro -->
+    <section class="intro" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="intro-content">
+                        <p class="caption-section intro-caption">About Us</p>
+                        <h3 class="title-section">We are <span class="text-light">Professional Teams</span> to Growth your Business</h3>
+                        <p class="desc-section">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of</p>
+                        <button type="button" class="btn btn--primary">Read More</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+                    <div class="boxed-img boxed-img-intro">
+                        
+                        <a class="popup-youtube" href="https://www.youtube.com/watch?v=fLCjQJCekTs" data-effect="fadeIn">
+                            <img src="../assets/images/about.jpg" alt="">
+                            <span class="video-play-button">
+                                <span></span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section intro -->
+    <!-- Section our services -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="heading-section">
+                        <p class="caption-section">Our Services</p>
+                        <h3 class="title-section">See what can we do for your Projects</h3>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="grid-box">
+                        <div class="grid-item">
+                            <div class="boxed-img">
+                                <img src="../assets/images/services/app_development.svg" alt="">
+                            </div>
+                            <h5 class="grid-content">Web Development</h5>
+                        </div>
+                        <div class="grid-item">
+                            <div class="boxed-img">
+                                <img src="../assets/images/services/graphics_design.svg" alt="">
+                            </div>
+                            <h5 class="grid-content">Graphics Design</h5>
+                        </div>
+                        <div class="grid-item">
+                            <div class="boxed-img">
+                                <img src="../assets/images/services/seo_and_marketing.svg" alt="">
+                            </div>
+                            <h5 class="grid-content">SEO & Marketing</h5>
+                        </div>
+                        <div class="grid-item">
+                            <div class="boxed-img">
+                                <img src="../assets/images/services/customer_services.svg" alt="">
+                            </div>
+                            <h5 class="grid-content">Customer Services</h5>
+                        </div>
+                        <div class="grid-item">
+                            <div class="boxed-img">
+                                <img src="../assets/images/services/app_development.svg" alt="">
+                            </div>
+                            <h5 class="grid-content">App Development</h5>
+                        </div>
+                        <div class="grid-item">
+                            <div class="boxed-img">
+                                <img src="../assets/images/services/ui_ux_design.svg" alt="">
+                            </div>
+                            <h5 class="grid-content">UI/UX Design</h5>
+                        </div>
+                        <div class="grid-item">
+                            <div class="boxed-img">
+                                <img src="../assets/images/services/product_design.svg" alt="">
+                            </div>
+                            <h5 class="grid-content">Product Design</h5>
+                        </div>
+                        <div class="grid-item">
+                            <div class="boxed-img">
+                                <img src="../assets/images/services/data_analyst.svg" alt="">
+                            </div>
+                            <h5 class="grid-content">Data Analyst</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section our services -->
+    <!-- Section teams -->
+    <section class="teams">
+        <div class="moving-bg"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="heading-section">
+                        <p class="caption-section">Our Teams</p>
+                        <h3 class="title-section">The Expert Team on ReveTive</h3>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="teams-slider">
+                        <div class="team-memb">
+                            <div class="boxed-img">
+                                <img src="../assets/images/Teams/teams-01.jpg" alt="">
+                            </div>
+                            <div class="content-memb">
+                                <h5 class="title-memb">Walter White</h5>
+                                <p class="info-memb text-blur">Chief Executive Office</p>
+                                <div class="group-social">
+                                    <ul>
+                                        <li class="social-item"><a href="#!" class="social-link"><i class="fab fa-facebook-square"></i></a></li>
+                                        <li class="social-item"><a href="" class="social-link"><i class="fas fa-phone-square-alt"></i></a></li>
+                                        <li class="social-item"><a href="" class="social-link"><i class="fas fa-envelope"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-memb">
+                            <div class="boxed-img">
+                                <img src="../assets/images/Teams/teams-02.jpg" alt="">
+                            </div>
+                            <div class="content-memb">
+                                <h5 class="title-memb">Walter White</h5>
+                                <p class="info-memb text-blur">Chief Executive Office</p>
+                                <div class="group-social">
+                                    <ul>
+                                        <li class="social-item"><a href="#!" class="social-link"><i class="fab fa-facebook-square"></i></a></li>
+                                        <li class="social-item"><a href="" class="social-link"><i class="fas fa-phone-square-alt"></i></a></li>
+                                        <li class="social-item"><a href="" class="social-link"><i class="fas fa-envelope"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-memb">
+                            <div class="boxed-img">
+                                <img src="../assets/images/Teams/teams-03.jpg" alt="">
+                            </div>
+                            <div class="content-memb">
+                                <h5 class="title-memb">Walter White</h5>
+                                <p class="info-memb text-blur">Chief Executive Office</p>
+                                <div class="group-social">
+                                    <ul>
+                                        <li class="social-item"><a href="#!" class="social-link"><i class="fab fa-facebook-square"></i></a></li>
+                                        <li class="social-item"><a href="" class="social-link"><i class="fas fa-phone-square-alt"></i></a></li>
+                                        <li class="social-item"><a href="" class="social-link"><i class="fas fa-envelope"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-memb">
+                            <div class="boxed-img">
+                                <img src="../assets/images/Teams/teams-04.jpg" alt="">
+                            </div>
+                            <div class="content-memb">
+                                <h5 class="title-memb">Walter White</h5>
+                                <p class="info-memb text-blur">Chief Executive Office</p>
+                                <div class="group-social">
+                                    <ul>
+                                        <li class="social-item"><a href="#!" class="social-link"><i class="fab fa-facebook-square"></i></a></li>
+                                        <li class="social-item"><a href="" class="social-link"><i class="fas fa-phone-square-alt"></i></a></li>
+                                        <li class="social-item"><a href="" class="social-link"><i class="fas fa-envelope"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-memb">
+                            <div class="boxed-img">
+                                <img src="../assets/images/Teams/teams-05.jpg" alt="">
+                            </div>
+                            <div class="content-memb">
+                                <h5 class="title-memb">Walter White</h5>
+                                <p class="info-memb text-blur">Chief Executive Office</p>
+                                <div class="group-social">
+                                    <ul>
+                                        <li class="social-item"><a href="#!" class="social-link"><i class="fab fa-facebook-square"></i></a></li>
+                                        <li class="social-item"><a href="" class="social-link"><i class="fas fa-phone-square-alt"></i></a></li>
+                                        <li class="social-item"><a href="" class="social-link"><i class="fas fa-envelope"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-memb">
+                            <div class="boxed-img">
+                                <img src="../assets/images/Teams/teams-06.jpg" alt="">
+                            </div>
+                            <div class="content-memb">
+                                <h5 class="title-memb">Walter White</h5>
+                                <p class="info-memb text-blur">Chief Executive Office</p>
+                                <div class="group-social">
+                                    <ul>
+                                        <li class="social-item"><a href="#!" class="social-link"><i class="fab fa-facebook-square"></i></a></li>
+                                        <li class="social-item"><a href="" class="social-link"><i class="fas fa-phone-square-alt"></i></a></li>
+                                        <li class="social-item"><a href="" class="social-link"><i class="fas fa-envelope"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section teams -->
+    <!-- Section portfolio -->
+    <section class="portfolio wrapper" id="project">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="wrapper-heading">
+                        <div class="heading-section">
+                            <p class="caption-section">
+                                Portfolio
+                            </p>
+                            <h3 class="title-section">Our Latest Projects</h3>
+                        </div>
+                        <a href="#!" class="link-more">Browse Projects<ion-icon name="arrow-forward-outline"></ion-icon></a>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="grid-box">
+                        <div class="grid-item portfolio">
+                            <a href="../assets/images/portfolio/portfolio-01.jpg" data-fancybox="portfolio" class="grid-link"><div class="boxed-img"><img src="../assets/images/portfolio/portfolio-01.jpg" alt=""></div></a>
+                        </div>
+                        <div class="grid-item portfolio">
+                            <a href="../assets/images/portfolio/portfolio-02.jpg" data-fancybox="portfolio" class="grid-link"><div class="boxed-img"><img src="../assets/images/portfolio/portfolio-02.jpg" alt=""></div></a>
+                        </div>
+                        <div class="grid-item portfolio">
+                            <a href="../assets/images/portfolio/portfolio-03.jpg" data-fancybox="portfolio" class="grid-link"><div class="boxed-img"><img src="../assets/images/portfolio/portfolio-03.jpg" alt=""></div></a>
+                        </div>
+                        <div class="grid-item portfolio">
+                            <a href="../assets/images/portfolio/portfolio-04.jpg" data-fancybox="portfolio" class="grid-link"><div class="boxed-img"><img src="../assets/images/portfolio/portfolio-04.jpg" alt=""></div></a>
+                        </div>
+                        <div class="grid-item portfolio">
+                            <a href="../assets/images/portfolio/portfolio-05.jpg" data-fancybox="portfolio" class="grid-link"><div class="boxed-img"><img src="../assets/images/portfolio/portfolio-05.jpg" alt=""></div></a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section portfolio -->
+    <!-- Section testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="testimonials-slider">
+                        <div class="testimonials-item">
+                            <div class="testimonials-content">
+                                The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph
+                              </div>
+                              <div class="testimonials-author">
+                                  <div class="boxed-img">
+                                      <img src="https://images.unsplash.com/photo-1632836985024-51711dced912?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+                                  </div>
+                                  <div class="info">
+                                    <h5 class="info-name">Sam Watson</h5>
+                                    <div class="propr">CEO - Mosh Elite Ltd.</div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="testimonials-item">
+                            <div class="testimonials-content">
+                                The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph
+                              </div>
+                              <div class="testimonials-author">
+                                  <div class="boxed-img">
+                                      <img src="https://images.unsplash.com/photo-1632836985024-51711dced912?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h5 class="info-name">Sam Watson</h5>
+                                        <div class="propr">CEO - Mosh Elite Ltd.</div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="testimonials-item">
+                            <div class="testimonials-content">
+                                The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph
+                              </div>
+                              <div class="testimonials-author">
+                                  <div class="boxed-img">
+                                      <img src="https://images.unsplash.com/photo-1632836985024-51711dced912?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h5 class="info-name">Sam Watson</h5>
+                                        <div class="propr">CEO - Mosh Elite Ltd.</div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="testimonials-item">
+                            <div class="testimonials-content">
+                                The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph
+                              </div>
+                              <div class="testimonials-author">
+                                  <div class="boxed-img">
+                                      <img src="https://images.unsplash.com/photo-1632836985024-51711dced912?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h5 class="info-name">Sam Watson</h5>
+                                        <div class="propr">CEO - Mosh Elite Ltd.</div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="testimonials-item">
+                            <div class="testimonials-content">
+                                The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph
+                              </div>
+                              <div class="testimonials-author">
+                                  <div class="boxed-img">
+                                      <img src="https://images.unsplash.com/photo-1632836985024-51711dced912?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+                                    </div>
+                                    <div class="info">
+                                        <h5 class="info-name">Sam Watson</h5>
+                                        <div class="propr">CEO - Mosh Elite Ltd.</div>
+                                    </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section testimonials -->
+    <!-- Section News -->
+    <section class="news wrapper" id="news">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="heading-section">
+                        <p class="caption-section">News</p>
+                        <h3 class="title-section">Read Our Latest News</h3>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="grid-box">
+                        <div class="grid-item">
+                            <div class="author">
+                                <div class="boxed-img">
+                                    <img src="https://images.unsplash.com/photo-1616565397499-39bc8abaaa7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+                                </div>
+                                <div class="info">
+                                    <h5 class="info-name">
+                                        Sam Newman
+                                    </h5>
+                                    <p class="info-date">23 Apr 2021</p>
+                                </div>
+                            </div>
+                            <div class="news-content">
+                                <h4 class="news-title"><a href="#!">What is Business Management?</a></h4>
+                                <p class="news-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, esse.</p>
+                            </div>
+                            <div class="news-footer">
+                                <a href="#!" class="read-more">Read More<i class="fas fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="author">
+                                <div class="boxed-img">
+                                    <img src="https://images.unsplash.com/photo-1616565397499-39bc8abaaa7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+                                </div>
+                                <div class="info">
+                                    <h5 class="info-name">
+                                        Sam Newman
+                                    </h5>
+                                    <p class="info-date">23 Apr 2021</p>
+                                </div>
+                            </div>
+                            <div class="news-content">
+                                <h4 class="news-title"><a href="">What is Business Management?</a></h4>
+                                <p class="news-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, esse.</p>
+                            </div>
+                            <div class="news-footer">
+                                <a href="#!" class="read-more">Read More<i class="fas fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="author">
+                                <div class="boxed-img">
+                                    <img src="https://images.unsplash.com/photo-1616565397499-39bc8abaaa7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+                                </div>
+                                <div class="info">
+                                    <h5 class="info-name">
+                                        Sam Newman
+                                    </h5>
+                                    <p class="info-date">23 Apr 2021</p>
+                                </div>
+                            </div>
+                            <div class="news-content">
+                                <h4 class="news-title"><a href="">What is Business Management?</a></h4>
+                                <p class="news-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, esse.</p>
+                            </div>
+                            <div class="news-footer">
+                                <a href="#!" class="read-more">Read More<i class="fas fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="author">
+                                <div class="boxed-img">
+                                    <img src="https://images.unsplash.com/photo-1616565397499-39bc8abaaa7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+                                </div>
+                                <div class="info">
+                                    <h5 class="info-name">
+                                        Sam Newman
+                                    </h5>
+                                    <p class="info-date">23 Apr 2021</p>
+                                </div>
+                            </div>
+                            <div class="news-content">
+                                <h4 class="news-title"><a href="">What is Business Management?</a></h4>
+                                <p class="news-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, esse.</p>
+                            </div>
+                            <div class="news-footer">
+                                <a href="#!" class="read-more">Read More<i class="fas fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class=" btn-footer-news btn btn--primary">View More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section News -->
+    <!-- Section Get in touch -->
+    <section class="form-contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="heading-section">
+                        <h3 class="title-section">Stay in touch</h3>
+                        <p class="desc-section">Just say hello or drop us a line. You can manualy send us email on <a href="mailto:example@mail.com">example@mail.com</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8">                        
+                        <form class="form-group">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 form-item">
+                                    <label for="name">Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Enter name...">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 form-item">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Email address...">
+                                </div>
+                                <div class="col-lg-12 form-item">
+                                    <label for="subject">Subject</label>
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject...">
+                                </div>
+                                <div class="col-lg-12 form-item">
+                                    <label for="message">Message</label>
+                                    <textarea name="message" id="message" rows="8" class="form-control" placeholder="Enter message..."></textarea>
+                                </div>
+                            </div>
+                        </form>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section Get in touch -->
+    <!-- Section partner -->
+    <section class="partner">
+        <div class="partner-slide">
+            <div class="partner-item">
+                <a href="#!"><div class="boxed-img"><img src="../assets/images/partner/airbnb.png" alt=""></div></a>
+            </div>
+            <div class="partner-item">
+                <a href="#!"><div class="boxed-img"><img src="../assets/images/partner/google.png" alt=""></div></a>
+            </div>
+            <div class="partner-item">
+                <a href="#!"><div class="boxed-img"><img src="../assets/images/partner/mailchimp.png" alt=""></div></a>
+            </div>
+            <div class="partner-item">
+                <a href="#!"><div class="boxed-img"><img src="../assets/images/partner/paypal.png" alt=""></div></a>
+            </div>
+            <div class="partner-item">
+                <a href="#!"><div class="boxed-img"><img src="../assets/images/partner/stripe.png" alt=""></div></a>
+            </div>
+            <div class="partner-item">
+                <a href="#!"><div class="boxed-img"><img src="../assets/images/partner/stripe.png" alt=""></div></a>
+            </div>
+            <div class="partner-item">
+                <a href="#!"><div class="boxed-img"><img src="../assets/images/partner/stripe.png" alt=""></div></a>
+            </div>
+            <div class="partner-item">
+                <a href="#!"><div class="boxed-img"><img src="../assets/images/partner/stripe.png" alt=""></div></a>
+            </div>
+            <div class="partner-item">
+                <a href="#!"><div class="boxed-img"><img src="../assets/images/partner/stripe.png" alt=""></div></a>
+            </div>
+            <div class="partner-item">
+                <a href="#!"><div class="boxed-img"><img src="../assets/images/partner/stripe.png" alt=""></div></a>
+            </div>
+            <div class="partner-item">
+                <a href="#!"><div class="boxed-img"><img src="../assets/images/partner/stripe.png" alt=""></div></a>
+            </div>
+            <div class="partner-item">
+                <a href="#!"><div class="boxed-img"><img src="../assets/images/partner/stripe.png" alt=""></div></a>
+            </div>
+            <div class="partner-item">
+                <a href="#!"><div class="boxed-img"><img src="../assets/images/partner/stripe.png" alt=""></div></a>
+            </div>
+            <div class="partner-item">
+                <a href="#!"><div class="boxed-img"><img src="../assets/images/partner/stripe.png" alt=""></div></a>
+            </div>
+            <div class="partner-item">
+                <a href="#!"><div class="boxed-img"><img src="../assets/images/partner/stripe.png" alt=""></div></a>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- End Section partner -->
+   <!-- section tickets -->
+   <section class="tickets">
+       <div class="container">
+           <div class="row">
+               <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
+                <div class="pricing-box text-center">
+                    <div class="pricing-title title-sm">
+                        <h3 class="nott ls0">1 Day Pass</h3>
+                        <span class="nott">Valid until 19th March</span>
+                    </div>
+                    <div class="pricing-price 1-day-pricing font-primary fw-bold">
+                        <div class="price-unit">$</div>174</div>
+                    <div class="pricing-persons">
+                        <select class="required form-select" name="1-day-pricing-person" id="1-day-pricing-person">
+                            <option value="1" selected="">1 Person</option>
+                            <option value="2">2 Persons</option>
+                            <option value="3">3 Persons</option>
+                            <option value="4">4 Persons</option>
+                            <option value="5">5 Persons</option>
+                            <option value="6">6 Persons</option>
+                            <option value="7">7 Persons</option>
+                            <option value="8">8 Persons</option>
+                        </select>
+                    </div>
+                    <div class="pricing-action px-5">
+                        <a href="#" class="button button-large button-gradient w-100 m-0">Buy Ticket</a>
+                    </div>
+                </div>
+               </div>
+               <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
+                <div class="pricing-box text-center">
+                    <div class="pricing-title title-sm">
+                        <h3 class="nott ls0">2 Days Pass</h3>
+                        <span class="nott">Valid until 19th March</span>
+                    </div>
+                    <div class="pricing-price 1-day-pricing font-primary fw-bold"><div class="price-unit">$</div>174</div>
+                    <div class="pricing-persons">
+                        <select class="required form-select" name="1-day-pricing-person" id="1-day-pricing-person">
+                            <option value="1" selected="">1 Person</option>
+                            <option value="2">2 Persons</option>
+                            <option value="3">3 Persons</option>
+                            <option value="4">4 Persons</option>
+                            <option value="5">5 Persons</option>
+                            <option value="6">6 Persons</option>
+                            <option value="7">7 Persons</option>
+                            <option value="8">8 Persons</option>
+                        </select>
+                    </div>
+                    <div class="pricing-action px-5">
+                        <a href="#" class="button button-large button-gradient w-100 m-0">Buy Ticket</a>
+                    </div>
+                </div>
+               </div>
+               <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
+                <div class="pricing-box text-center">
+                    <div class="pricing-title title-sm">
+                        <h3 class="nott ls0">1 Day Pass</h3>
+                        <span class="nott">Valid until 19th March</span>
+                    </div>
+                    <div class="pricing-price 1-day-pricing font-primary fw-bold"><div class="price-unit">$</div>174</div>
+                    <div class="pricing-persons">
+                        <select class="required form-select" name="1-day-pricing-person" id="1-day-pricing-person">
+                            <option value="1" selected="">1 Person</option>
+                            <option value="2">2 Persons</option>
+                            <option value="3">3 Persons</option>
+                            <option value="4">4 Persons</option>
+                            <option value="5">5 Persons</option>
+                            <option value="6">6 Persons</option>
+                            <option value="7">7 Persons</option>
+                            <option value="8">8 Persons</option>
+                        </select>
+                    </div>
+                    <div class="pricing-action px-5">
+                        <a href="#" class="button button-large button-gradient w-100 m-0">Buy Ticket</a>
+                    </div>
+                </div>
+               </div>
+               <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center">
+                <div class="pricing-box text-center">
+                    <div class="pricing-title title-sm">
+                        <h3 class="nott ls0">1 Day Pass</h3>
+                        <span class="nott">Valid until 19th March</span>
+                    </div>
+                    <div class="pricing-price 1-day-pricing font-primary fw-bold"><div class="price-unit">$</div>174</div>
+                    <div class="pricing-persons">
+                        <select class="required form-select" name="1-day-pricing-person" id="1-day-pricing-person">
+                            <option value="1" selected="">1 Person</option>
+                            <option value="2">2 Persons</option>
+                            <option value="3">3 Persons</option>
+                            <option value="4">4 Persons</option>
+                            <option value="5">5 Persons</option>
+                            <option value="6">6 Persons</option>
+                            <option value="7">7 Persons</option>
+                            <option value="8">8 Persons</option>
+                        </select>
+                    </div>
+                    <div class="pricing-action px-5">
+                        <a href="#" class="button button-large button-gradient w-100 m-0">Buy Ticket</a>
+                    </div>
+                </div>
+               </div>
+           </div>
+       </div>
+   </section>
+   <!-- End section tickets -->
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 footer-brand">
+                <a href="#" class="logo-footer navbar-brand"><span>Reve</span>Tive.</a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <h4 class="footer-title-block">Contact Information</h4>
+                <ul>
+                    <li>
+                        <span>301 The Greenhouse, Custard Factory, London, E2 8DY.</span>
+                    </li>
+                    <li>
+                        <span>Email: example@mail.com</span>
+                    </li>
+                    <li>
+                        <span>Phone: +00 112323980</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <h4 class="footer-title-block">Company</h4>
+                <ul>
+                    <li><a href="#!" class="link-item-footer">Career</a></li>
+                    <li><a href="#!" class="link-item-footer">Resources</a></li>
+                    <li><a href="#!" class="link-item-footer">News & Feed</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <h4 class="footer-title-block">Newsletter</h4>
+                <form action="#" class="form-footer">
+                    <input type="email" placeholder="Enter your email" class="form-control">
+                    <button type="submit" class="btn--primary">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+                <div class="footer-copyright">Copyright 2020. Designed by <a href="#">MACode ID</a></div>
+                <div class="footer-socials">
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+    
+</footer>
+<div class="back-to-top" style="visibility: visible;"><i class="fas fa-chevron-up"></i></div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <!-- Slick slider -->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <!-- End Slick slider -->
+    <!-- Ionic Icon -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- End Ionic Icon -->
+	<script src="../assets/js/bootstrap.bundle.js"></script>
+	<script src="../assets/vendor/fancybox/js/jquery.fancybox.min.js"></script>
+	<!-- <script src="../assets/vendor/isotope/isotope.pkgd.min.js"></script> -->
+	<script src="../assets/vendor/owl-carousel/js/owl.carousel.min.js"></script>
+	<script src="../assets/vendor/wow/wow.min.js"></script>
+    <!-- <script src="../assets/js/popper.min.js"></script> -->
+    <script src="../assets/js/jquery.easing.min.js"></script>
+    <script src="../assets/js/jquery.magnific-popup.js"></script>
+	<script src="../assets/js/custom.js"></script>
+</body>
+
+</html>

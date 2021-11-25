@@ -1,0 +1,32 @@
+.form-contact{
+    .form-group{
+        .form-item{
+            margin-bottom: 20px;
+            label{
+                font-size: 14px;
+                font-weight: 700;
+            }
+            input{
+                min-height: 40px;
+            }
+            input, textarea{
+                border: 2px solid transparent;
+                background-color: rgba(211, 211, 211, 0.425);
+                border-radius: 0;
+                box-shadow: none;
+                transition: 0.3s all;
+                outline: none;
+            }
+            input:focus, textarea:focus{
+                background-color: white;
+                border-color: $primary-color;
+                
+            }
+            ::placeholder{
+                font-style: italic;
+
+            }
+        }
+    }
+    
+}
